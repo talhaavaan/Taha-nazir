@@ -25,7 +25,7 @@ export default function About() {
       ref={sectionRef}
       style={{
         position: 'relative',
-        height: '220vh',
+        height: '105vh',
         background: 'hsl(var(--bg))',
       }}
     >
