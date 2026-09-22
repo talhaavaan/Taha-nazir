@@ -202,12 +202,6 @@ function Frame({ p, index, playingId, setPlayingId }) {
       {/* bottom scrim */}
       <div aria-hidden style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(8,10,14,0.92) 0%, rgba(8,10,14,0.2) 50%, transparent 75%)', pointerEvents: 'none' }} />
 
-      {/* top meta */}
-      <div style={{ position: 'absolute', top: 14, left: 16, right: 16, display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontFamily: "'Inter',sans-serif", fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.7)' }}>
-        <span style={{ color: p.accent }}>● {p.cat}</span>
-        <span>{p.year}</span>
-      </div>
-
       {/* centre play/pause — always visible, fades on hover while playing */}
       <AnimatePresence>
         {(hovered || !isPlaying) && (

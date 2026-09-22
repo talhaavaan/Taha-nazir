@@ -15,8 +15,8 @@ export default function About() {
 
   const labelOpacity = useTransform(progress, [0, 0.04, 0.9, 1], [0, 1, 1, 0]);
   const gridY = useTransform(progress, [0, 1], ['0%', '-18%']);
-  const paragraphY = useTransform(progress, [0, 0.35, 0.7, 1], ['24px', '0px', '0px', '-20px']);
-  const paragraphOpacity = useTransform(progress, [0, 0.12, 0.7, 1], [0, 1, 1, 0]);
+  const paragraphY = useTransform(progress, [0, 0.12, 0.78, 0.92], ['16px', '0px', '0px', '-12px']);
+  const paragraphOpacity = useTransform(progress, [0, 0.04, 0.78, 0.92], [1, 1, 1, 1]);
   const accentFade = useTransform(progress, [0.2, 0.5, 0.8, 1], [0.4, 1, 1, 0.2]);
 
   return (
@@ -25,7 +25,7 @@ export default function About() {
       ref={sectionRef}
       style={{
         position: 'relative',
-        height: '320vh',
+        height: '220vh',
         background: 'hsl(var(--bg))',
       }}
     >

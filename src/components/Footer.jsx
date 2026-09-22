@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { BackgroundVideo } from './Hero';
 
 const MARQUEE_TEXT = 'BUILDING THE FUTURE • ';
-const WHATSAPP_NUMBER = '919370901747'; // Taha's WhatsApp: +91 9370901747
+const WHATSAPP_NUMBER = '923156242515'; // Taha's WhatsApp: +92 315 6242515
 const EMAIL = 'ajey.editor@gmail.com'; // TODO: replace with Taha's real email
 
 /* ── input/textarea shared base style ─────────────────────────── */

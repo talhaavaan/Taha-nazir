@@ -39,8 +39,8 @@ export default function App() {
       <Hero />
       <Trust />
       <About />
-      <Services />
       <Portfolio />
+      <Services />
       <Testimonials />
       <Software />
       <Why />
